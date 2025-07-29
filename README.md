@@ -5,11 +5,11 @@ and performing semantic searches using Pinecone.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Start Services with Docker using "make"
 
-Before starting, you need to change the name of .env_example file to .env and then:
+Before starting, you need to change the name of .env_example file to .env everything will work in mock mode and then:
 
 ```bash
    make up
@@ -142,7 +142,7 @@ Neutral sentiment:
 
 ---
 
-## 🎓 Developer Notes
+## Developer Notes
 
 * Environment Variables to set in `.env` ready to test in mock mode:
 
@@ -165,7 +165,7 @@ Neutral sentiment:
 
 ---
 
-## 🚧 Shut Down
+## Shut Down
 
 ```bash
    make down
@@ -173,6 +173,6 @@ Neutral sentiment:
 
 ---
 
-## 📅 Author
+## Author
 
 Created for demonstration and local testing purposes with mock and AI-integrated endpoints.
