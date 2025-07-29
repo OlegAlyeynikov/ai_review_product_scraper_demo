@@ -15,6 +15,12 @@ Before starting, you need to change the name of .env_example file to .env everyt
    make up
 ```
 
+To see docker logs:
+
+```bash
+   make logs
+```
+
 This command launches the following services:
 
 * FastAPI app ([http://localhost:8000](http://localhost:8000))
