@@ -145,6 +145,24 @@ Neutral sentiment:
      'http://localhost:8000/api/v1/analytics/sentiment-stats' \
      -H 'accept: application/json'
 ```
+---
+
+## Tests
+* To launch the tests in docker venv
+
+```bash 
+  make dtest
+```
+
+* To launch the tests in usual venv create venv and install requirements 
+
+```bash 
+  make install    # Install dependencies
+```
+
+```bash 
+  make test
+```
 
 ---
 

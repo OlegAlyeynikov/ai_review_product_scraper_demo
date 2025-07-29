@@ -12,9 +12,12 @@ install: ## Install dependencies
 dev: ## Run in development mode
 	python run.py
 
-test: ## Run all tests
+test: ## Run all tests in usual venv
 	python -m pytest tests/ -v
 	python test_api.py
+
+dtest: ## Run all tests in docker venv
+	docker-compose exec app pytest tests/ -v
 
 build: ## Build Docker image
 	docker-compose build
